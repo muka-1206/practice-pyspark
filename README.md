@@ -20,7 +20,7 @@ Install
 - $ cd practice-pyspark
 - $ docker-compose up -d --build
 
-再起動は`docker-compose start`, 撤収は`docker-compose stop`
+再起動は`docker-compose start`, 撤収は`docker-compose stop`, すべて消し飛ばすときは`docker-compose down`
 
 
 Usage
@@ -38,4 +38,4 @@ Document
 - work/data配下に使用したデータを配置
 
 
-macで動くかは確認していないです。
+ユーザーホームディレクトリ配下以外にcloneする場合は別途dockerのファイル共有設定が必要です(詳しくは[本家](https://github.com/The-Japan-DataScientist-Society/100knocks-preprocess))。macで動くかは確認していないです。
